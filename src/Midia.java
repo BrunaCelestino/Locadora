@@ -33,7 +33,5 @@ public abstract class Midia {
         this.nome = nome;
     }
 
-    public abstract void darPlay (){
-
-    }
+    public abstract void darPlay ();
 }
