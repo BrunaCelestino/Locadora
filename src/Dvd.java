@@ -19,7 +19,7 @@ public class Dvd extends Midia{
         this.idioma = idioma;
     }
 
-    public boolean possuiLegenda() {
+    public boolean getPossuiLegenda() {
         return possuiLegenda;
     }
 
