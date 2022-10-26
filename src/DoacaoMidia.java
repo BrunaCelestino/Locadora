@@ -21,5 +21,10 @@ public class DoacaoMidia {
             default:return dvd3;
         }
     }
+    public static void assistirFilme(){
+        Dvd dvdEscolhido = new Dvd("0012", 12.00, "Moana", "Português", true, "Inglês");
 
+        dvdEscolhido.legenda(true, "Inglês");
+        dvdEscolhido.legenda(false);
+    }
 }
