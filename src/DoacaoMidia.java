@@ -3,8 +3,8 @@ import java.util.Random;
 public class DoacaoMidia {
     public static void main(String[] args) {
         Midia midia = pegarMidiaAleatoria();
+        midia.darPlay();
 
-        System.out.println(midia);
 
     }
     public static Midia pegarMidiaAleatoria(){
