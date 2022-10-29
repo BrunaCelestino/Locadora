@@ -1,6 +1,9 @@
 # <div align="center"> Projeto Final Módulo 2 - Locadora </div>
+  <div align="center">  
+
     Autoras: Bruna Celestino, Caroline Oliveira e Mayla Siqueira
 
+</div>
 
 <br>
 
@@ -67,8 +70,6 @@ Crie um sistema que faça a doação dessas mídias de forma aleatória.
 <br>
 
 - Criar classe DoacaoMidia
-
-  <br>
 
   - Essa classe deve conter método pegarMidiaAleatoria() que devolve uma midia já criada na biblioteca
 
