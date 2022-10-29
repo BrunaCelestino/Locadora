@@ -34,4 +34,14 @@ public abstract class Midia {
     }
 
     public abstract void darPlay ();
+
+    public String getTipo(){
+        return "Mídia";
+    }
+    @Override
+    public String toString() {
+        return "Código: " + codigo +
+                "\nPreço: R$ " + preco +
+                "\nNome: " + nome + "\n";
+    }
 }

@@ -3,7 +3,13 @@ import java.util.Random;
 public class DoacaoMidia {
     public static void main(String[] args) {
         Midia midia = pegarMidiaAleatoria();
+        System.out.println("Mídia: " + midia.getTipo());
+        System.out.println("Nome: " + midia.getNome());
+        System.out.println();
         midia.darPlay();
+        System.out.println();
+        System.out.println("Informações:");
+        System.out.println(midia);
 
 
     }

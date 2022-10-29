@@ -11,6 +11,10 @@ public class Dvd extends Midia{
         this.idiomaLegenda = idiomaLegenda;
     }
 
+    @Override
+    public String getTipo(){
+        return "DVD";
+    }
     public String getIdioma() {
         return idioma;
     }
@@ -44,6 +48,13 @@ public class Dvd extends Midia{
         this.possuiLegenda = ligarDesligar;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + "Mídia: DVD \n" +
+                "Idioma: " + idioma +
+                "\nPossui legenda?: " + (possuiLegenda ? "SIM" : "NÃO") +
+                "\nIdioma da legenda: " + idiomaLegenda;
+    }
     @Override
     public void darPlay() {
         System.out.println("Filme iniciado.");

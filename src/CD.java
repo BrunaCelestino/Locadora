@@ -8,8 +8,10 @@ public class CD extends Midia{
         this.quantidadeFaixas = quantidadeFaixas;
     }
 
-
-
+    @Override
+    public String getTipo(){
+        return "CD";
+    }
     public String getArtista() {
         return artista;
     }
@@ -26,6 +28,12 @@ public class CD extends Midia{
         this.quantidadeFaixas = quantidadeFaixas;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + "Mídia: CD" +
+                "\nArtista: " + artista +
+                "\nQuantidade de faixas: " + quantidadeFaixas + "\n";
+    }
 
     @Override
     public void darPlay() {
